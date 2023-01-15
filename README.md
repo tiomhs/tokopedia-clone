@@ -1,3 +1,7 @@
+#Tokopedia Clone
+link : https://tokopedia-clone-smoky.vercel.app/
+technology : react js, swiper js, tailwind css
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
