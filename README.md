@@ -1,6 +1,6 @@
-#Tokopedia Clone
-link : https://tokopedia-clone-smoky.vercel.app/
-technology : react js, swiper js, tailwind css
+# Tokopedia Clone
+### link : https://tokopedia-clone-smoky.vercel.app/
+technology : react js, swiper js, tailwind css 
 
 # Getting Started with Create React App
 
