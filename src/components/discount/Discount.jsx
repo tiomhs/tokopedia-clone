@@ -25,8 +25,8 @@ const Discount = () => {
             </div>
 
             <div className="slider relative lg:h-96 flex items-center mt-2">
-                <div className="absolute w-full lg:w-72 rounded-lg bg-purple-600">
-                    <img src={bg1} alt="" className='lg:h-96 lg:w-56 rounded-lg h-64 w-32' />
+                <div className="absolute w-full lg:w-72 rounded-lg bg-[#9f32cd]">
+                    <img src={bg1} alt="" className='lg:h-96 lg:w-48 rounded-lg h-64 w-32' />
                 </div>
                 <Swiper
                     spaceBetween={5}
@@ -44,9 +44,9 @@ const Discount = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="card ">            
-                                <div className="w-full lg:w-44 lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
+                                <div className="w-full lg:w-fit lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
                                     <a href="#">
-                                        <img className="rounded-t-lg lg:h-44" src={barang1} alt="" />
+                                        <img className="rounded-t-lg lg:h-44 lg:w-full" src={barang1} alt="" />
                                     </a>
                                     <div className="p-2">
                                         <p className="text-black text-sm hidden lg:block">Roegan Biotin Shampoo Hair Loss</p>
@@ -71,9 +71,9 @@ const Discount = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="card">            
-                                <div className="w-full lg:w-44 lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
+                                <div className="w-full lg:w-fit lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
                                     <a href="#">
-                                        <img className="rounded-t-lg lg:h-44" src={barang2} alt="" />
+                                        <img className="rounded-t-lg lg:h-44 lg:w-full" src={barang2} alt="" />
                                     </a>
                                     <div className="p-2">
                                         <p className="text-black text-sm hidden lg:block">Alat Penghemat BBM/Solar BBM Volt Stablillazer</p>
@@ -98,9 +98,9 @@ const Discount = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="card">            
-                                <div className="w-full lg:w-44 lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
+                                <div className="w-full lg:w-fit lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
                                     <a href="#">
-                                        <img className="rounded-t-lg lg:h-44" src={barang3} alt="" />
+                                        <img className="rounded-t-lg lg:h-44 lg:w-full" src={barang3} alt="" />
                                     </a>
                                     <div className="p-2">
                                         <p className="text-black text-sm hidden lg:block">Tas Tangan - Tote Bag Mini - Mois de Mars</p>
@@ -125,9 +125,9 @@ const Discount = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="card">            
-                                <div className="w-full lg:w-44 lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
+                                <div className="w-full lg:w-fit lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
                                     <a href="#">
-                                        <img className="rounded-t-lg lg:h-44" src={barang4} alt="" />
+                                        <img className="rounded-t-lg lg:h-44 lg:w-full" src={barang4} alt="" />
                                     </a>
                                     <div className="p-2">
                                         <p className="text-black text-sm hidden lg:block">Marries Baby Diapers S 24S Triple Packs</p>
@@ -152,9 +152,9 @@ const Discount = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="card">            
-                                <div className="w-full lg:w-44 lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
+                                <div className="w-full lg:w-fit lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
                                     <a href="#">
-                                        <img className="rounded-t-lg lg:h-44" src={barang5} alt="" />
+                                        <img className="rounded-t-lg lg:h-44 lg:w-full" src={barang5} alt="" />
                                     </a>
                                     <div className="p-2">
                                         <p className="text-black text-sm hidden lg:block">Celana Panjang Pria Gunung Unisex Cozmeed</p>
@@ -179,9 +179,9 @@ const Discount = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="card">            
-                                <div className="w-full lg:w-44 lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
+                                <div className="w-full lg:w-fit lg:h-[350px] bg-white border border-gray-200 rounded-lg shadow-md">
                                     <a href="#">
-                                        <img className="rounded-t-lg lg:h-44" src={barang5} alt="" />
+                                        <img className="rounded-t-lg lg:h-44 lg:w-full" src={barang5} alt="" />
                                     </a>
                                     <div className="p-2">
                                         <p className="text-black text-sm hidden lg:block">Celana Panjang Pria Gunung Unisex Cozmeed</p>

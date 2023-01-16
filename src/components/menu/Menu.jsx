@@ -214,14 +214,14 @@ const Menu = () => {
                   onSwiper={(swiper) => console.log(swiper)}
                 >
                   <SwiperSlide>
-                    <div className="promo flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
-                      <GiPriceTag size={35} className='m-0'/>
+                    <div className="promo flex items-center border-2 rounded-full justify-center w-fit p-1 ">
+                      <GiPriceTag size={30} className='m-0'/>
                       <p className='text-sm'>Promo Hari Ini</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="window flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
-                      <MdOutlineWindow size={35} className='m-0'/>
+                    <div className="window flex items-center border-2 rounded-full justify-center w-fit p-1">
+                      <MdOutlineWindow size={30} className='m-0'/>
                       <p className='text-sm'>Lihat Semua</p>
                     </div>
                   </SwiperSlide>
