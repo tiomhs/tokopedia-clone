@@ -32,11 +32,11 @@ const NewUser = () => {
                     <SwiperSlide>
                         <div className="cardNewUser mt-2">            
                             <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
-                                <div className='p-4 bg-white drop-shadow-md absolute rounded-xl top-12 left-7 lg:left-24 lg:top-24 '>
-                                    <GiElectric size={30} className='text-yellow-400 border-2 border-black rounded-lg '/>
-                                </div>
                                 <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
-                                <div className="p-2 mt-6">
+                                <div className='p-2 bg-transparent drop-shadow-md -mt-8 rounded-xl '>
+                                    <GiElectric size={40} className='text-yellow-400 bg-white border-2 border-black rounded-lg mx-auto '/>
+                                </div>
+                                <div className="p-2">
                                     <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">LISTRIK PLN</h5>
                                     <p className="text-black text-xs lg:text-lg">Butuh beli token atau bayar tagihan listrik?</p>
                                 </div>
@@ -46,25 +46,11 @@ const NewUser = () => {
                     <SwiperSlide>
                         <div className="cardNewUser mt-2">            
                             <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
-                                <div className='p-4 bg-white drop-shadow-md absolute rounded-xl top-12 left-7 lg:left-24 lg:top-24 '>
-                                    <GiWaterDrop size={30} className='text-blue-300 border-2 border-black rounded-lg '/>
-                                </div>
                                 <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
-                                <div className="p-2 mt-6">
-                                    <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">Air PDAM</h5>
-                                    <p className="text-black text-xs lg:text-lg">Butuh bayar air pdam, tapi malas keluar rumah?</p>
+                                <div className='p-2 bg-transparent drop-shadow-md -mt-8 rounded-xl '>
+                                    <GiElectric size={40} className='text-yellow-400 bg-white border-2 border-black rounded-lg mx-auto '/>
                                 </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="cardNewUser mt-2">            
-                            <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
-                                <div className='p-4 bg-white drop-shadow-md absolute rounded-xl top-12 left-7 lg:left-24 lg:top-24 '>
-                                    <GiElectric size={30} className='text-yellow-400 border-2 border-black rounded-lg '/>
-                                </div>
-                                <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
-                                <div className="p-2 mt-6">
+                                <div className="p-2">
                                     <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">LISTRIK PLN</h5>
                                     <p className="text-black text-xs lg:text-lg">Butuh beli token atau bayar tagihan listrik?</p>
                                 </div>
@@ -74,11 +60,11 @@ const NewUser = () => {
                     <SwiperSlide>
                         <div className="cardNewUser mt-2">            
                             <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
-                                <div className='p-4 bg-white drop-shadow-md absolute rounded-xl top-12 left-7 lg:left-24 lg:top-24 '>
-                                    <GiElectric size={30} className='text-yellow-400 border-2 border-black rounded-lg '/>
-                                </div>
                                 <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
-                                <div className="p-2 mt-6">
+                                <div className='p-2 bg-transparent drop-shadow-md -mt-8 rounded-xl '>
+                                    <GiElectric size={40} className='text-yellow-400 bg-white border-2 border-black rounded-lg mx-auto '/>
+                                </div>
+                                <div className="p-2">
                                     <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">LISTRIK PLN</h5>
                                     <p className="text-black text-xs lg:text-lg">Butuh beli token atau bayar tagihan listrik?</p>
                                 </div>
@@ -88,17 +74,46 @@ const NewUser = () => {
                     <SwiperSlide>
                         <div className="cardNewUser mt-2">            
                             <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
-                                <div className='p-4 bg-white drop-shadow-md absolute rounded-xl top-12 left-7 lg:left-24 lg:top-24 '>
-                                    <GiElectric size={30} className='text-yellow-400 border-2 border-black rounded-lg '/>
-                                </div>
                                 <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
-                                <div className="p-2 mt-6">
+                                <div className='p-2 bg-transparent drop-shadow-md -mt-8 rounded-xl '>
+                                    <GiElectric size={40} className='text-yellow-400 bg-white border-2 border-black rounded-lg mx-auto '/>
+                                </div>
+                                <div className="p-2">
                                     <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">LISTRIK PLN</h5>
                                     <p className="text-black text-xs lg:text-lg">Butuh beli token atau bayar tagihan listrik?</p>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="cardNewUser mt-2">            
+                            <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
+                                <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
+                                <div className='p-2 bg-transparent drop-shadow-md -mt-8 rounded-xl '>
+                                    <GiElectric size={40} className='text-yellow-400 bg-white border-2 border-black rounded-lg mx-auto '/>
+                                </div>
+                                <div className="p-2">
+                                    <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">LISTRIK PLN</h5>
+                                    <p className="text-black text-xs lg:text-lg">Butuh beli token atau bayar tagihan listrik?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="cardNewUser mt-2">            
+                            <div className="w-full h-56 lg:w-fit lg:h-80 bg-white border border-gray-200 rounded-lg shadow-md relative">
+                                <div className="h-[40%] bg-emerald-300 rounded-br-3xl"></div>
+                                <div className='p-2 bg-transparent drop-shadow-md -mt-8 rounded-xl '>
+                                    <GiElectric size={40} className='text-yellow-400 bg-white border-2 border-black rounded-lg mx-auto '/>
+                                </div>
+                                <div className="p-2">
+                                    <h5 className="mb-1 text-xs font-bold text-emerald-500 lg:text-xl">LISTRIK PLN</h5>
+                                    <p className="text-black text-xs lg:text-lg">Butuh beli token atau bayar tagihan listrik?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    
                 </Swiper>
             </div>
         </div>

@@ -5,7 +5,7 @@ import {BsNewspaper} from 'react-icons/bs';
 
 const FooterMobile = () => {
   return (
-    <div className=' sticky bottom-0 z-50 bg-white shadow-sm border-t-2 lg:hidden'>
+    <div className=' sticky bottom-0 z-50 pb-4 bg-white shadow-sm border-t-2 lg:hidden'>
         <div className="container">
             <div className="">
                 <ul className='flex justify-between'>
