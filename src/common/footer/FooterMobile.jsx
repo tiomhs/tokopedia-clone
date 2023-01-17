@@ -10,24 +10,24 @@ const FooterMobile = () => {
             <div className="">
                 <ul className='flex justify-between'>
                     <li className='hover:text-emerald-600'>
-                        <AiTwotoneHome size={35} className='p-0.5 mx-auto'/>
-                        <p className='text-gray-500 text-sm'>Home</p>
+                        <AiTwotoneHome size={25} className='p-0.5 mx-auto'/>
+                        <p className='text-gray-500 text-xs'>Home</p>
                     </li>
                     <li className='hover:text-emerald-600'>
-                        <MdOutlineFeed size={35}  className='p-0.5 mx-auto'/>
-                        <p className='text-gray-500 text-sm'>Feed</p>
+                        <MdOutlineFeed size={25}  className='p-0.5 mx-auto'/>
+                        <p className='text-gray-500 text-xs'>Feed</p>
                     </li>
                     <li className='hover:text-emerald-600'>
-                        <AiFillCheckCircle size={35} className='p-0.5 mx-auto'/>
-                        <p className='text-gray-500 text-sm'>Oficial Store</p>
+                        <AiFillCheckCircle size={25} className='p-0.5 mx-auto'/>
+                        <p className='text-gray-500 text-xs'>Oficial Store</p>
                     </li>
                     <li className='hover:text-emerald-600'>
-                        <AiOutlineHeart size={35} className='p-0.5 mx-auto'/>
-                        <p className='text-gray-500 text-sm'>Wishlist</p>
+                        <AiOutlineHeart size={25} className='p-0.5 mx-auto'/>
+                        <p className='text-gray-500 text-xs'>Wishlist</p>
                     </li>
                     <li className='hover:text-emerald-600'>
-                        <BsNewspaper size={35} className='p-0.5 mx-auto'/>
-                        <p className='text-gray-500 text-sm'>Transaksi</p>
+                        <BsNewspaper size={25} className='p-0.5 mx-auto'/>
+                        <p className='text-gray-500 text-xs'>Transaksi</p>
                     </li>
                 </ul>
             </div>

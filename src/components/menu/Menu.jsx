@@ -208,79 +208,79 @@ const Menu = () => {
             <div className="icon">
               <div className="text-center py-4 pl-4">
                 <Swiper
-                  spaceBetween={30}
+                  spaceBetween={15}
                   slidesPerView={6}
                   onSlideChange={() => console.log('slide change')}
                   onSwiper={(swiper) => console.log(swiper)}
                 >
                   <SwiperSlide>
-                    <div className="promo flex items-center border-2 rounded-full justify-center w-fit p-1 ">
+                    <div className="promo flex items-center border-2 rounded-full justify-center gap-2  p-1.5 ">
                       <GiPriceTag size={30} className='m-0'/>
                       <p className='text-sm'>Promo Hari Ini</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="window flex items-center border-2 rounded-full justify-center w-fit p-1">
+                    <div className="window flex items-center border-2 rounded-full justify-center gap-2  p-1.5">
                       <MdOutlineWindow size={30} className='m-0'/>
                       <p className='text-sm'>Lihat Semua</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="shop flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                    <div className="shop flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                       <BiBasket size={35}className='m-0'/>
                       <p className='text-sm'>Toserba</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="elect flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                    <div className="elect flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                       <BiHeadphone size={35} className='m-0'/>
                       <p className='text-sm'>Elektronik</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="topup flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                    <div className="topup flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                       <RiFilePaper2Line size={35} className='m-0'/>
                       <p className='text-sm'>Top-Up & Tagihan</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="airplane flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                    <div className="airplane flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                       <GiCommercialAirplane size={35} className='m-0'/>
                       <p className='text-sm'>Travel</p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                <div className="promo flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                <div className="promo flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                   <ImSpoonKnife size={35} className='m-0'/>
                   <p className='text-sm'>GoFood</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="window flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                <div className="window flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                   <AiFillCheckCircle size={35} className='m-0'/>
                   <p className='text-sm'>Official Store</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="shop flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                <div className="shop flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                   <BsFillPlayCircleFill size={35}className='m-0'/>
                   <p className='text-sm'>Live Shopping</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="elect flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                <div className="elect flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                   <BsController size={35} className='m-0'/>
                   <p className='text-sm'>Tokopedia Seru</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="topup flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                <div className="topup flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                   <MdStore size={35} className='m-0'/>
                   <p className='text-sm'>Diskon di Denpasar</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="topup flex items-center gap-2 border-2 rounded-full justify-center w-48 py-0.5">
+                <div className="topup flex items-center gap-2 border-2 rounded-full justify-center p-1.5">
                   <FaHandHoldingHeart size={35} className='m-0'/>
                   <p className='text-sm'>Diskon di Denpasar</p>
                 </div>
